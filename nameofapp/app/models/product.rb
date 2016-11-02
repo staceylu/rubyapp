@@ -19,6 +19,6 @@ class Product < ApplicationRecord
 			name: "Product 4",
 			description: "This is the fourth product",
 			image_url: "dot.png"
-		}.
+		}
 	]
 end
