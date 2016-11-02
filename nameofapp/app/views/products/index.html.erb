@@ -6,7 +6,7 @@
 <div class="container-fluid">
   <div class="row">
     <% @products.each do |product| %>
-      <div class="col-sm-3 col-md-6">
+      <div class="col-sm-2 col-md-4">
         <h1><%= product.name %></h1>
         <p><%= image_tag(product.image_url, class: "img-responsive") %></p>
         <p><%= product.description %></p>
